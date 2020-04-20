@@ -1,0 +1,28 @@
+td{
+  text-align:center;
+  border-style:solid;
+  border-color:green;
+  border-width:2px;
+  color:green;
+}
+
+ table{
+	  border-style:solid;
+	  border-color:green;
+	  border-width:2px;
+	  text-align:center;
+	  margin: 0 auto;
+	  width: 50%;
+}
+th{
+	color: green;
+}
+#as{
+	float: center;
+	margin: 0 auto;
+	width: 40%;
+}
+p{
+	text-align: center;
+	color: red;
+}
