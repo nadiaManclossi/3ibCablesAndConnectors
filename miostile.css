@@ -1,14 +1,12 @@
 <style type=text/css>	
 body{
    background-color: grey;
+   font-size:11pt;
+   color:blue;
+   font-family:Verdana;
 }
-p {
-  color:blue;
-  font-family:Verdana;
-  
-}
- .grande      { 
-	font-size:32px; 
+.grande { 
+	font-size:32pt; 
 	font-weight: bolder;
 	}
 .evidenziato{ background-color:orange;
