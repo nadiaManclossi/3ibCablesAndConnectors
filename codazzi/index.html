@@ -1,0 +1,127 @@
+<html>
+<head>
+<link href="stile.css" rel="stylesheet" type="text/css">
+</head>
+<title>Slot PCI</title>
+<body>
+<div align="center">
+<img src="img1.jpg" width="350" class="immagine1" hspace="25">
+<img src="img2.jpg" width="350" class="immagine2" hspace="25">
+</div>
+<br>
+<br>
+
+<table border="1" align="center">
+
+<tr>
+<td> <b>materiali</b> </td> <td> plastica </td>
+</tr>
+
+
+<tr>
+<td><b>utilizzo</b></td> <td> lo slot PCI è uno slot che permette la connessione fra la CPU e le periferiche interne al computer, <br> come le schede elettroniche (scheda madre, ram, scheda grafica ecc...)</td>
+</tr>
+
+<tr>
+<td> <b>connessione</b> </td> <td> Slot dedicato, PCI </td>
+</tr>
+
+<tr>
+<td> <b>caratteristiche </b></td> <td>clock a 33.33 MHz con trasferimento in modo sincrono <br> 
+transfer rate elevato (133MB/s), ottenuto moltiplicanto in numero di Mhz <br> a segnale di clock per il numero di bits che contiene lo slot e infine per la dimensione di questi bits (1 byte)<br>
+32 bit o 64 di ampiezza dei bus <br>
+256 byte di spazio di configurazione<br>
+segnali da 3.3 volt 0 5 volt <br>
+switching delle riflessioni <br></td>
+</tr>
+
+<tr>
+<td rowspan="1"> <b>pin di uscita</b> </td>
+
+<td> Pin configurati per uno slot PCI a 5 volt e 64bit: <br> <br>
+		<table border="1" colspan="2" align="center"> 
+		<tr><td> :-----:-----: </td></tr>
+		<tr><td> -12V |- B1  A1  -| Test Reset </td></tr>
+		<tr><td> Test Clock |- B2  A2  -| +12V </td></tr>
+		<tr><td> Ground |- B3  A3  -| Test Mode Select </td></tr>
+		<tr><td> Test Data Output |- B4  A4  -| Test Data Input </td></tr>
+		<tr><td> +5V |- B5  A5  -| +5V </td></tr>
+		<tr><td> +5V |- B6  A6  -| Interrupt A </td></tr>
+		<tr><td> Interrupt B |- B7  A7  -| Interrupt C </td></tr>
+		<tr><td> Interrupt D |- B8  A8  -| +5V </td></tr>
+		<tr><td> PRSNT1# |- B9  A9  -| Reserved </td></tr>
+		<tr><td> Reserved |- B10 A10 -| +V I/O </td></tr>
+		<tr><td> PRSNT2# |- B11 A11 -| Reserved </td></tr>
+		<tr><td> :-----:-----: </td></tr>
+		<tr><td> :-----:-----: </td></tr>
+		<tr><td> Reserved |- B14 A14 -| Reserved </td></tr>
+		<tr><td> Ground |- B15 A15 -| Reset </td></tr>
+		<tr><td> Clock |- B16 A16 -| +V I/O </td></tr>
+		<tr><td> Ground |- B17 A17 -| Grant </td></tr>
+		<tr><td> Request |- B18 A18 -| Ground </td></tr>
+		<tr><td> +V I/O |- B19 A19 -| Reserved </td></tr>
+		<tr><td> Address 31 |- B20 A20 -| Address 30 </td></tr>
+		<tr><td> Address 29 |- B21 A21 -| +3.3V </td></tr>
+		<tr><td> Ground |- B22 A22 -| Address 28 </td></tr>
+		<tr><td> Address 27 |- B23 A23 -| Address 26 </td></tr>
+		<tr><td> Address 25 |- B24 A24 -| Ground</td></tr>
+		<tr><td> +3.3V |- B25 A25 -| Address 24 </td></tr>
+		<tr><td> C/BE 3 |- B26 A26 -| Init Device Select </td></tr>
+		<tr><td> Address 23 |- B27 A27 -| +3.3V </td></tr>
+		<tr><td> Ground |- B28 A28 -| Address 22 </td></tr>
+		<tr><td> Address 21 |- B29 A29 -| Address 20  </td></tr>
+		<tr><td> Address 19 |- B30 A30 -| Ground </td></tr>
+		<tr><td> +3.3V |- B31 A31 -| Address 18 </td></tr>
+		<tr><td> Address 17 |- B32 A32 -| Address 16 </td></tr>
+		<tr><td> C/BE 2 |- B33 A33 -| +3.3V </td></tr>
+		<tr><td> Ground |- B34 A34 -| Cycle Frame </td></tr>
+		<tr><td> Initiator Ready |- B35 A35 -| Ground </td></tr>
+		<tr><td> +3.3V |- B36 A36 -| Target Ready </td></tr>
+		<tr><td> Device Select |- B37 A37 -| Ground </td></tr>
+		<tr><td> Ground |- B38 A38 -| Stop </td></tr>
+		<tr><td> Lock |- B39 A39 -| +3.3V </td></tr>
+		<tr><td> Parity Error |- B40 A40 -| Snoop Done </td></tr>
+		<tr><td> +3.3V |- B41 A41 -| Snoop Backoff</td></tr>
+		<tr><td> System Error |- B42 A42 -| Ground </td></tr>
+		<tr><td> +3.3V |- B43 A43 -| PAR </td></tr>
+		<tr><td> C/BE 1 |- B44 A44 -| Address 15 </td></tr>
+		<tr><td> Address 14 |- B45 A45 -| +3.3V </td></tr>
+		<tr><td> Ground |- B46 A46 -| Address 13</td></tr>
+		<tr><td> Address 12 |- B47 A47 -| Address 11 </td></tr>
+		<tr><td> Address 10 |- B48 A48 -| Ground </td></tr>
+		<tr><td> Ground |- B49 A49 -| Address 9 </td></tr>
+		<tr><td> :-----:-----: </td></tr>
+		<tr><td> :-----:-----: </td></tr>
+		<tr><td> Address 8 |- B52 A52 -| C/BE 0 </td></tr>
+		<tr><td>  Address 7 |- B53 A53 -| +3.3V </td></tr>
+		<tr><td> +3.3V |- B54 A54 -| Address 6 </td></tr>
+		<tr><td>  Address 5 |- B55 A55 -| Address 4 </td></tr>
+		<tr><td> Address 3 |- B56 A56 -| Ground </td></tr>
+		<tr><td>  Ground |- B57 A57 -| Address 2</td></tr>
+		<tr><td> Address 1 |- B58 A58 -| Address 0 </td></tr>
+		<tr><td>  +5 I/O |- B59 A59 -| +V I/O </td></tr>
+		<tr><td> Acknowledge 64-bit |- B60 A60 -| Request 64-bit </td></tr>
+		<tr><td>  +5V |- B61 A61 -| +5V </td></tr>
+		<tr><td> +5V |- B62 A62 -| +5V </td></tr>
+		<tr><td> :-----:-----: </td></tr>
+		
+		
+		
+</table>
+</td>
+<tr>
+
+
+
+
+
+
+
+
+
+<tr>
+<td><b> curiosità </b></td> <td> lo Slot PCI a 33,33 Mhz è stato la radice che ha portato alla diffusione di massa dei computer. <br> lo Slot PCI a 33,33 Mhz è l' antenato di tutti gli slot PCI che usiamo oggi. </td>
+</tr>
+
+</body>
+</html>
